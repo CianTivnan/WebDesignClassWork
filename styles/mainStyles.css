@@ -1,0 +1,163 @@
+/*  Author - Cian Tivnan S00198481
+	Date - 27/02/20	
+    Page Description - Week 6 assignment */
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+header
+{
+    background-image: url(../images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: navajowhite;
+    border: 1px solid blue;
+}
+
+h2
+{
+    text-align: center
+}
+
+body
+{
+    font-family: Verdana;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+nav
+{
+    background-color: grey;;
+    padding: 10px;
+}
+
+
+
+
+nav ul 
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li
+{
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 5px;
+    border: 2px;
+    border-color: blue;
+    color: white;
+    text-decoration: none;
+    margin: 2px;
+}
+
+nav ul li:hover
+{
+    background-color: #8E8E8E;
+}
+
+
+
+nav ul li a
+{
+    color: white;
+    text-decoration: none;
+    
+}
+
+main
+{
+    padding: 10px;
+    width: 80%;
+    float: left;
+}
+
+aside
+{
+    border: .5px solid yellow;
+    width: 18.5%;
+    float: right;   
+}
+
+aside ul li a
+{
+    color: blue;
+    text-decoration: none;
+}
+
+aside ul li
+{
+    list-style-type: none;
+}
+
+
+/*highlight active site section */
+#active
+{
+    background-color: green
+    
+}
+
+.content
+{
+    float: left;
+    width: 80%;
+    margin-right: 15px;
+    border: 1px solid grey;
+}
+
+#restaurantPic
+{
+    width: 100%;
+}
+
+.col_detail
+{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+.sectionDisplay
+{
+    padding: 15px;
+    border: 2px solid black;
+    text-align: center;
+    margin: 10px;
+}
+
+.text
+{
+    text-align: left;
+}
+
+
+
+
+footer
+{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    
+    text-align: center;
+}
+
+
+
+
+
